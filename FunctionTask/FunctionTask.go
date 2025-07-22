@@ -23,6 +23,6 @@ func kategorikanBilangan(n int) string {
 
 func main() {
 	for n := 1; n <= 30; n++ {
-		fmt.Println(n, kategorikanBilangan(n))
+		fmt.Println(n, "adalah bilangan", kategorikanBilangan(n))
 	}
 }
